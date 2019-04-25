@@ -33,6 +33,7 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'faker', '~> 1.6', '>= 1.6.3' #Faker, a port of Data::Faker from Perl, is used to easily generate fake data: names, addresses, phone numbers, etc.
 gem 'paper_trail', '~> 6.0', '>= 6.0.2' #Track changes to your rails models
 
 group :development, :test do
